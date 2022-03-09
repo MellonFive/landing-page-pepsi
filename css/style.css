@@ -96,6 +96,7 @@ header ul li a {
 .content .textBox a:hover {
     color: #0062be;
     transition: .5s;
+    font-size: 17px;
 }
 
 .content .imgBox {
