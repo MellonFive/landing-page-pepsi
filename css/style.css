@@ -51,6 +51,23 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li .links:after {
+    content: ""; /* Propriedade obrigatória para poder preencher um after. Estudar mais essa propriedade */
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 200ms linear;
+    transform-origin: center right;
+}
+
+header ul li .links:hover:after {
+    transform: scale(0.92);
+}
+
 .content {
     position: relative;
     width: 100%;
