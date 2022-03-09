@@ -93,6 +93,11 @@ header ul li a {
     text-transform: uppercase;
 }
 
+.content .textBox a:hover {
+    color: #0062be;
+    transition: .5s;
+}
+
 .content .imgBox {
     width: 600px;
     display: flex;
